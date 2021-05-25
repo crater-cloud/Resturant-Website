@@ -32,6 +32,7 @@ main {
     background: grey;
     height: 480px;
     text-align: center;
+    padding-top: 80px;
     padding-left: 240px;
     padding-right: 240px;
     
@@ -49,6 +50,12 @@ p1 {
     color: whitesmoke ;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
+}
+a {
+
+    padding-top: 30px;
+    color: blue;
+    font-size: 30px; 
 }
 
 footer {
