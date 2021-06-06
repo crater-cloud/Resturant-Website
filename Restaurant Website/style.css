@@ -1,6 +1,12 @@
-body {
+html {
+    height: 100%;
+}
 
-    background-color: grey;
+body { 
+    background-color: rgb(49, 46, 46);
+    background-image: url(background-adare-restaurant.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -12,7 +18,7 @@ body {
 
 header {
 
-    background-color: grey;
+   
     height: 118px;
     text-align: center;
      
@@ -21,24 +27,32 @@ header {
 
 nav {
 
+    background-color: rgba(12, 12, 12, 0.377);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
     
-    background-color: red;
-    height: 40px;
-    
+}
+
+nav a {
+    color: azure;  
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;  
 }
 
 main {
 
-    background: grey;
-    height: 480px;
+    height: 400px;
     text-align: center;
-    padding-top: 80px;
+    padding-top: 5px;
     padding-left: 240px;
     padding-right: 240px;
     
 }
 h1 {
 
+    color: white;
     font-size: 80px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
@@ -51,15 +65,24 @@ p1 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     
 }
-a {
-
-    padding-top: 30px;
-    color: blue;
-    font-size: 30px; 
-}
 
 footer {
 
-    background:  greenyellow;
-    height: 100px;
+    background:  rgba(161, 161, 87, 0.37);
+    text-align: center;
+    font-size: medium;
+    color: beige;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+main a {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    
+}
+.maps {
+    padding-left: 320px;
+    padding-right: 300px;
 }
